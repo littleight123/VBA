@@ -1,6 +1,12 @@
 Attribute VB_Name = "Module1"
 Option Explicit
-Public Function eoeoeo(apple, banana, ggggg) As Integer
-eoeoeo = (apple + banana + ggggg) * 10
-End Function
+Sub °j°é½m²ß()
+Dim row, col As Integer
+For row = 1 To 9
+    For col = 1 To 9
+        Cells(row, col).Value = row & "*" & col & "=" & row * col
+    Next
+Next
+
+End Sub
 
